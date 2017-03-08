@@ -162,6 +162,7 @@ class HtmlStash(object):
 
     def reset(self):
         self.html_counter = 0
+        self.tag_counter = 0
         self.rawHtmlBlocks = []
 
     def get_placeholder(self, key):
